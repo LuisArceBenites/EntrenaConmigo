@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Entre your credentials to resume trainning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKG-aH-ITg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Enter your credentials to resume trainning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKG-aH-ITg">
                                 <rect key="frame" x="37.666666666666657" y="250" width="318" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" name="LABELS PRINCIPALES"/>
@@ -108,6 +108,11 @@
                             <constraint firstItem="z8P-pj-93s" firstAttribute="top" secondItem="8dv-P4-wB6" secondAttribute="bottom" constant="8" symbolic="YES" id="zUT-Bc-ajd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="8bC-Xf-vdC" id="UNc-OI-aZW"/>
+                        <outlet property="iniciarSesion" destination="5XW-G1-QBZ" id="sBg-76-UQH"/>
+                        <outlet property="password" destination="ux7-63-ZqS" id="RnX-HD-lCi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
