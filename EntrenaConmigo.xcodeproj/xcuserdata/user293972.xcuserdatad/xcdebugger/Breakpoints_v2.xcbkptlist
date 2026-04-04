@@ -3,4 +3,182 @@
    uuid = "52D3C1A9-04D3-4BE4-9F8E-B2874B7BB313"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntrenaConmigo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA - 6d238f97d136ae36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EntrenaConmigo.ViewController"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA - 482c444e684f294e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EntrenaConmigo.ViewController&gt;"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA - 4ab6e47bc5cbcd9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__deallocating_deinit"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA - a42e36dcb18a9023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EntrenaConmigo.ViewController"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "11E674F3-15DA-4DED-8015-5ADDDC5396DA - 2941582a45ed1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EntrenaConmigo.ViewController&gt;"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EntrenaConmigo/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1 - 6d238f97d136ae36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EntrenaConmigo.ViewController"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1 - a42e36dcb18a9023"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EntrenaConmigo.ViewController"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1 - 482c444e684f294e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EntrenaConmigo.ViewController&gt;"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1 - 2941582a45ed1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EntrenaConmigo.ViewController&gt;"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "F52A6240-4368-4053-85DB-F38B82CC84E1 - 4ab6e47bc5cbcd9e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EntrenaConmigo.ViewController.__deallocating_deinit"
+                  moduleName = "EntrenaConmigo.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user293972/Desktop/EntrenaConmigo/EntrenaConmigo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
