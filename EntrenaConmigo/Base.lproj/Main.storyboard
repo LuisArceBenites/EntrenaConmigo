@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pr-MJ-0hE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="50g-zT-pP0">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -121,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323" y="18"/>
+            <point key="canvasLocation" x="-196" y="18"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PLL-pB-HuN">
@@ -132,9 +133,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ENTRENA CONMIGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvr-3e-mlR">
-                                <rect key="frame" x="88" y="59" width="213" height="27"/>
+                                <rect key="frame" x="88" y="59" width="262" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                 <color key="textColor" name="LABELS SECUNDARIOS"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -170,11 +171,12 @@
                                         <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Jack Heminguay" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BdV-Il-b5h">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Heminguay" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BdV-Il-b5h">
                                         <rect key="frame" x="20" y="134" width="281" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="Fondo3DatosBiometricos"/>
-                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -185,11 +187,11 @@
                                         <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="****************" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="kpF-0k-5jJ">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*****************" textAlignment="natural" minimumFontSize="17" id="kpF-0k-5jJ">
                                         <rect key="frame" x="20" y="389" width="281" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="Fondo3DatosBiometricos"/>
-                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -200,19 +202,19 @@
                                         <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="****************" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="9KI-Me-ddO">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="*****************" textAlignment="natural" minimumFontSize="17" id="9KI-Me-ddO">
                                         <rect key="frame" x="20" y="305" width="281" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="Fondo3DatosBiometricos"/>
-                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="athlete@performance.lab" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="CFK-mQ-38V">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="athlete@performance.lab" textAlignment="natural" minimumFontSize="17" id="CFK-mQ-38V">
                                         <rect key="frame" x="19" y="214" width="281" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" name="Fondo3DatosBiometricos"/>
-                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -267,7 +269,165 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RL1-Hr-yjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020.6106870229007" y="17.605633802816904"/>
+            <point key="canvasLocation" x="1170" y="18"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fXe-Y3-g2d">
+            <objects>
+                <viewController id="Op5-qn-WAy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uYe-sp-IBm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSH-R0-vWD">
+                                <rect key="frame" x="0.0" y="59" width="393" height="721"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hah-5h-6hd">
+                                        <rect key="frame" x="0.0" y="20" width="393" height="200"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hah-5h-6hd" firstAttribute="bottom" secondItem="mhu-kb-EjE" secondAttribute="bottom" id="85O-15-t6N"/>
+                                    <constraint firstItem="hah-5h-6hd" firstAttribute="width" secondItem="dsq-yU-geM" secondAttribute="width" id="IhZ-fU-I1d"/>
+                                    <constraint firstItem="hah-5h-6hd" firstAttribute="trailing" secondItem="mhu-kb-EjE" secondAttribute="trailing" id="JaQ-tA-wqg"/>
+                                    <constraint firstItem="hah-5h-6hd" firstAttribute="leading" secondItem="mhu-kb-EjE" secondAttribute="leading" id="lek-g3-r8V"/>
+                                    <constraint firstItem="hah-5h-6hd" firstAttribute="top" secondItem="mhu-kb-EjE" secondAttribute="top" id="rC2-8U-h97"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="mhu-kb-EjE"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="dsq-yU-geM"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EJ6-SR-9wp"/>
+                        <color key="backgroundColor" name="FondoDatosBiometricos"/>
+                        <constraints>
+                            <constraint firstItem="oSH-R0-vWD" firstAttribute="leading" secondItem="EJ6-SR-9wp" secondAttribute="leading" id="BMT-ab-O1S"/>
+                            <constraint firstItem="oSH-R0-vWD" firstAttribute="top" secondItem="EJ6-SR-9wp" secondAttribute="top" id="K6u-OA-att"/>
+                            <constraint firstItem="EJ6-SR-9wp" firstAttribute="bottom" secondItem="oSH-R0-vWD" secondAttribute="bottom" id="PaB-6h-o6I"/>
+                            <constraint firstItem="EJ6-SR-9wp" firstAttribute="trailing" secondItem="oSH-R0-vWD" secondAttribute="trailing" id="tkp-KI-yZ5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eXT-gu-uBh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1872.5190839694656" y="17.605633802816904"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="45X-wA-ZD3">
+            <objects>
+                <viewController id="50g-zT-pP0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2F-fF-Za9">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTRENA CONMIGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PE2-3f-zEl">
+                                <rect key="frame" x="65" y="208" width="262" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Performance Laboratory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8UT-Mj-7rX">
+                                <rect key="frame" x="77" y="249" width="238" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" name="LABELS PRINCIPALES"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="mZR-Vf-tSr">
+                                <rect key="frame" x="32" y="302" width="329" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIENVENIDO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Me-YL-f5J">
+                                        <rect key="frame" x="98" y="8" width="132" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uKh-LV-93e">
+                                        <rect key="frame" x="20" y="109" width="115" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name@entrenaconmigo.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vEM-Dy-Q2D">
+                                        <rect key="frame" x="20" y="134" width="281" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="******************" textAlignment="natural" minimumFontSize="17" id="4EQ-QM-N5s">
+                                        <rect key="frame" x="19" y="214" width="281" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="LABELS PRINCIPALES"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jcA-54-pje">
+                                        <rect key="frame" x="20" y="189" width="82" height="17"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cm-n2-16k">
+                                        <rect key="frame" x="21" y="272" width="280" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" name="LABELS SECUNDARIOS"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Iniciar Sesion">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xeq-3B-hnE">
+                                        <rect key="frame" x="174" y="365" width="93" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="LABELS SECUNDARIOS"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New to the lab?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jNt-GI-VhA">
+                                        <rect key="frame" x="51" y="365" width="107" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="con tu entrenamiento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="peD-ke-iuX">
+                                        <rect key="frame" x="79" y="62" width="147" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingresa tus credenciales para empezar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="THB-Ji-9V3">
+                                        <rect key="frame" x="32" y="43" width="265" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" name="LABELS PRINCIPALES"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="usc-Pb-onb"/>
+                                <color key="backgroundColor" name="Fondo2DatosBiometricos"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" id="naU-am-v0j">
+                                <rect key="frame" x="126" y="73" width="140" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0WF-dX-fga"/>
+                        <color key="backgroundColor" name="FondoDatosBiometricos"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLf-1O-AWt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="482" y="18"/>
         </scene>
     </scenes>
     <resources>
@@ -278,11 +438,8 @@
         <namedColor name="Fondo2DatosBiometricos">
             <color red="0.027450980392156862" green="0.066666666666666666" blue="0.14509803921568629" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <namedColor name="Fondo3DatosBiometricos">
-            <color red="0.078431372549019607" green="0.12156862745098039" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
         <namedColor name="FondoDatosBiometricos">
-            <color red="0.023529411764705882" green="0.054901960784313725" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.043137254901960784" green="0.054901960784313725" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="LABELS PRINCIPALES">
             <color red="0.87058823529411766" green="0.89803921568627454" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -293,5 +450,8 @@
         <namedColor name="PLACE HOLDERS">
             <color red="0.63921568627450975" green="0.66666666666666663" blue="0.7686274509803922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
